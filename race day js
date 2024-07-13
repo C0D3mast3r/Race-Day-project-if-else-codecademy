@@ -1,0 +1,23 @@
+//Race Day project using if else statements from codecademy
+let raceNumber = Math.floor(Math.random() * 1000);
+let runnerRegistered = true;
+let runnerAge = 18;
+
+if (runnerAge >= 18 && runnerRegistered) {
+  raceNum = raceNumber + 1000;
+  console.log("Registered Early and 18 plus \nyour Race Number - "+ raceNum+ "\n See Registration Desk!!!");
+}
+else {
+  raceNum = raceNumber + 1000;
+  console.log("Registered late and 18 plus\nyour Race Number - "+ raceNum + "\n See Registration Desk!!!");
+}
+
+if (runnerAge >= 18 && runnerRegistered) {
+  console.log('Race at 9:30 am \n' + "Race Number - "+ raceNumber );
+}
+else if (runnerAge >= 18 && !runnerRegistered) {
+  console.log('Race at 11:00 am \n' + "Race Number - " + raceNumber);
+}
+else {
+  console.log('Race at 12:30 pm \n' + 'Race Number - ' + raceNumber);
+}
